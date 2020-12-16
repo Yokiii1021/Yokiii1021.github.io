@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<title>YOKI XUE</title>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+  <body>
+      <div class="home">
+          <div class="content">
+              <div class="stars"></div>
+              <img class="bgc" src="background.jpeg" width="100%" alt="">
+              <h3 class="title">WELCOME TO YOKI'S COMM LAB WORKS</h3>
+              <h3 class="titles">♡ Scroll down to watch ♡</h3>
+              <div class='ribbon'>
+                  <a href='./index.html'><span>Home</span></a>
+                  <a href='./about.html'><span>About</span></a>
+              </div>
+
+          </div>
+          <div class="icons">
+              <div class="icons_items">
+                <a href="#w1">
+                  <img class="icons_items_imgs" id="icon1" a href="#w1" src="rabbit.jpeg" alt="">
+                     </a>
+                  <span> &nbsp&nbsp 30MFF WEB SITE</span>
+              </div>
+              <div class="icons_items">
+                <a href="#w2">
+                   <img class="icons_items_imgs" id="icon2" src="bear.jpeg" alt="">
+                 </a>
+                  <span>&nbsp &nbsp &nbspCOMIX STRIP</span>
+              </div>
+              <div class="icons_items">
+                <a href="#w3">
+                  <img class="icons_items_imgs" id="icon3" a href="#w3" src="fox.jpeg" alt="">
+                       </a>
+                  <span>&nbsp&nbsp&nbspSOUNDS LIKE</span>
+              </div>
+              <div class="icons_items">
+                <a href="#w4">
+                  <img class="icons_items_imgs" id="icon4" a href="#w4" src="wolf.jpeg" alt="">
+                       </a>
+                  <span>&nbsp&nbsp&nbsp&nbsp&nbspVID-E-OH!!!</span>
+              </div>
+          </div>
+          <div class="introduce">
+              <div class="introduce_item">
+                <a name="w1">
+                  <a href="https://yokixue.github.io/">
+                  <img class="introduce_item_img" id="im1" src="30MFF.jpeg" alt="">
+                  </a>
+                  </a>
+                  <span class="introduce_item_title">This is the first assignment, where my teammates and I filmed and edited a short film, and we each individually coded a webpage to display it. It is my first web design work. It is not that refined and aesthetically appealing, but very meaningful to me. Hope you like it :> </p></span>
+              </div>
+
+
+              <div class="introduce_item">
+                  <span class="introduce_item_titles">For the second assignment, we were given a lot freedom to create our own storyline and a six-panel "interactive" comic. My team came up with an emotional story about a bear giving away free hugs to his peers. We hope whoever interact with it can have an immersive experience and escape from the annoying Covid thing for a few minutes.</span>
+                  <a name="w2">
+                    <a href="https://safimasafi.github.io/commlabcomic2/">
+                    <img class="introduce_item_img" id="im2" src="comic.jpeg" alt="">
+                    </a>
+                    </a>
+              </div>
+
+              <div class="introduce_item">
+                <a name="w3">
+                  <a href="https://nadja0607.github.io/sound.html">
+                  <img class="introduce_item_img" id="im3"  src="audio.jpeg" alt="">
+                  </a>
+                    </a>
+                  <span class="introduce_item_title">In this project, my team mainly wanted to auditorily present things that we cherished . For Yoki, it’s travelling; for Treedom, it’s photography; for Quim, it’s playing the guitar; and for Nadja, it’s dancing. These things are the sources of happiness and energy to us, so recording the sound related to these things works as a recollection and reminisce. We wanted to create a sense of antiquity, echoing the theme of “memory”. When you hover over to listen to the story, the picture will turn into a colored one, resembling the revitalization of the past memory.</span>
+              </div>
+
+              <div class="introduce_item">
+                  <span class="introduce_item_titles">This project is a video based project that houses 4 stories running on the premise that it is December 2020, and that the time machine has been invented. 4 people go to the pre-pandemic past to warn their past selves about the disastrous year that is about to follow.  The project has 4 parallel stories that are running and each story was created by each team member. Each team member was the main actor in their own videos and had diverse character traits. We had 4 characters, the rich kid, the paranoid kid, the YOLO kid and the bat killer kid. Thus, we see each individual go to their past and warn their past selves about the pandemic and see how each character responds in a different manner.  We wanted to create an interactive experience for the user and this was achieved by the way the website displayed the stories.</span>
+                  <a name="w4">
+                    <a href="https://mrymkhalili.github.io/comm-lab-assignment-4/index.html">
+                  <img class="introduce_item_img"  id="im4" src="video.jpeg" alt="">
+                  </a>
+                    </a>
+              </div>
+
+          </div>
+          <audio autoplay="autoplay" id="audio" loop="loop">
+                  <source src="music.mp3" type="audio/MP3">
+
+          </audio>
+          <img class="music_img" src="note.jpeg" alt="">
+      </div>
+
+  </body>
+  <script>
+      let mucics = document.getElementById('audio')
+      document.body.addEventListener('mousemove', function() {
+          setTimeout(() => {
+              mucics.play();
+          }, 2000);
+      }, false);
+  </script>
+
+  </html>
